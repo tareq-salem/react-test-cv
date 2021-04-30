@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(to left,#8481B3,#ECEBFF,#D4D1FF);
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+body h2
+{
+    font-size:1.5em;
+    font-family: 'Alatsi', sans-serif;
+    color:white;
+    text-decoration: underline;
+    text-decoration-color:white;
+    margin-left: 5px;
+}
+body div {
+  padding: 5px;
+}
+p{
+  margin-left: 5px;
+  font-size: 1em;
+ }
+
+ .checked {
+  color: orange;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 620px) {
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+  } 
+}

@@ -1,0 +1,18 @@
+.footer{
+    background-color:#8481B3;
+    text-align: center;
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+    box-shadow: 10px 10px #CCD1FF;
+    border-radius: 15px 50px;
+    transition: transform .2s;
+}
+@media only screen and (max-width: 620px) {
+  
+    .footer {
+      width: 100%;
+      margin:  10px auto auto auto;
+    }  
+    }

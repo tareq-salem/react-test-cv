@@ -1,0 +1,57 @@
+.header {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 15px 50px;
+    text-align:center;
+    background-image: linear-gradient(to right,#8481B3,#ECEBFF,#D4D1FF);
+}
+.titre
+  {
+      width:100%;
+      margin:auto;
+      padding: 1px;
+      height: 130px;
+  }
+  
+  .titre h1
+  {
+    font-family: 'Alatsi', sans-serif;
+      font-size:2em;
+      color:purple;
+  }
+  
+  .titre p
+  {
+    font-family: 'Alatsi', sans-serif;
+      font-size:2em;
+  }
+  .photo_identite
+  {
+      transition: transform .2s;
+      border:white 2px solid;
+  }
+  
+  .photo_identite:hover
+  {
+    transform: scale(1.2);
+  }
+  
+  .photo
+  {
+      margin-left:65%;
+      margin-top: 0px;
+  }
+  /* Mobile Styles */
+@media only screen and (max-width: 620px) {
+  
+    header {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin: auto;
+    }  
+    .photo
+    {
+       margin: auto;
+    } 
+    }
